@@ -1,1 +1,1 @@
-# senior_project
+NewtCode Academy
