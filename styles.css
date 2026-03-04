@@ -1,6 +1,43 @@
+body {
+    background-color: #D5E6FF;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_and_name {
+    margin: 0;
+    margin-left: 30px;
+    display:flex;
+    gap: 30px;
+    align-items: center;
+}
+
 #logo {
-    width: 100px;
-    height: 100px;
-    margin-left: -20px;
-    margin-top: -20px;
+    width: 60px;
+    height: 70px;
+}
+
+#name {
+    color: #0C4F95;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    margin:0;
+    margin-right: 30px;
+    list-style-type: none;
+    gap: 30px;
+    opacity: 80%;
+}
+
+li {
+    background-color: #a6caf2;
+    padding: 3px;
+    border: 2px solid #0C4F95;
+    border-radius: 7px;
 }
