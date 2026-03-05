@@ -1,15 +1,21 @@
 body {
-    background-color: #D5E6FF;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    background-color: #fafbfc;
+    font-family: "Playfair Display", serif;
 }
 
 .navigation {
+    background-color: #D5E6FF;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
 }
 
 .logo_and_name {
-    margin: 0;
     margin-left: 40px;
     display:flex;
     gap: 30px;
@@ -22,7 +28,7 @@ body {
 }
 
 #name {
-    color: #0C4F95;
+    color: #003165;
     margin: 0;
     font-size: 25px;
 }
@@ -32,21 +38,60 @@ ul {
     margin:0;
     margin-right: 40px;
     list-style-type: none;
-    gap: 40px;
+    gap: 10px;
+    padding: 0px;
 }
 
-#sign_in {
+li {
     font-size: 25px;
-    border: 1px solid #5998db;
-    border-radius: 9px;
-    padding: 5px 8px 5px 8px;
-    opacity: 70%;
+    align-items: center;
+    padding: 5px 15px 7px 15px;
+}
+
+#signin {
+    opacity: 75%;
+    font-size: 25px;
+    color: #003165;
 }
 
 #join {
-    font-size: 25px;
-    background-color: #8dc1fb;
-    border: 2px solid #D5E6FF;
+    background-color: #b1d3f9;;
     border-radius: 9px;
-    padding: 5px 8px 5px 8px;
+    color: #003165;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#hero-bigtext {
+    font-size: 64px; 
+    margin: 0;
+    font-weight: 500;
+    color: #003165;
+}
+
+#hero-smalltext {
+    font-size: 30px; 
+    margin: 0;
+    font-weight: 300;
+    color: #003165;
+    opacity: 80%;
+}
+
+#hero-button {
+    width: fit-content;
+    font-size: 30px;
+    color: white;
+    margin: 20px 0 0 0;
+    background-color: #003165;;
+    border-radius: 9px;
+    padding: 3px 15px 6px 15px;
+    font-weight: 500;
 }
