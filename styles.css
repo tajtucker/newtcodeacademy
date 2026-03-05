@@ -22,12 +22,12 @@ body {
     align-items: center;
 }
 
-#logo {
+.logo {
     width: 65px;
     height: 80px;
 }
 
-#name {
+.name {
     color: #003165;
     margin: 0;
     font-size: 25px;
@@ -48,13 +48,13 @@ li {
     padding: 5px 15px 7px 15px;
 }
 
-#signin {
+.signin {
     opacity: 75%;
     font-size: 25px;
     color: #003165;
 }
 
-#join {
+.join {
     background-color: #b1d3f9;;
     border-radius: 9px;
     color: #003165;
@@ -70,14 +70,14 @@ li {
     padding-top: 10px;
 }
 
-#hero-bigtext {
+.hero-bigtext {
     font-size: 64px; 
     margin: 0;
     font-weight: 500;
     color: #003165;
 }
 
-#hero-smalltext {
+.hero-smalltext {
     font-size: 30px; 
     margin: 0;
     font-weight: 300;
@@ -85,7 +85,7 @@ li {
     opacity: 80%;
 }
 
-#hero-button {
+.hero-button {
     width: fit-content;
     font-size: 30px;
     color: white;
@@ -94,4 +94,82 @@ li {
     border-radius: 9px;
     padding: 3px 15px 6px 15px;
     font-weight: 500;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px ;
+    margin-top: -25px ;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #003165;
+    border-radius: 5px 25px ;
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    gap: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.26);
+    padding: 0 15px;
+}
+
+.card-img {
+    width: 110px;
+    height: 200px;
+}
+
+.card-text {
+    margin: 0;
+    color: #003165;
+    font-size: 15px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -20px auto 0;
+    max-width: 1000px;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+.about-text {
+    font-size:35px; 
+    margin: 0;
+    margin-top: -20px;
+    font-weight: 600;
+    color: #003165;
+}
+
+.about-p {
+    margin: 0;
+    font-weight: 400;
+    color: #003165;
+    opacity: 80%;
+    font-size: 18px;
+}
+
+.about-img {
+    max-width: 650px;
+    height: 550px;
+    margin-right: -150px;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,.3));
 }
