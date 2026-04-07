@@ -28,6 +28,7 @@ body {
 .nav-name {
     color: var(--primary-dark-blue);
     font-size: var(--small-text);
+    font-weight: 600;
 }
 
 .nav-right {
@@ -186,6 +187,7 @@ body {
     margin: 0px;
     font-size: var(--small-text);
     color: var(--primary-light-blue);
+    font-weight: 500;
 }
 
 .footer-right {
