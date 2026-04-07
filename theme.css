@@ -1,0 +1,9 @@
+:root {
+    --primary-background-color: #fafbfc;
+    --primary-light-blue: #D5E6FF;
+    --primary-dark-blue: #003165;
+    --primary-font: "Playfair Display", serif;
+    --small-text: 25px;
+    --button-padding: 5px 15px 7px 15px;
+    --button-border-radius: 10px;
+}
